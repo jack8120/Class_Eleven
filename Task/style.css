@@ -1,0 +1,23 @@
+
+
+#largebox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    gap: 10px;
+    
+    
+}
+
+.smallbox {
+    border: 1px solid black;
+    height: 100px;
+    min-width: 20%;
+    display: flex;
+    
+
+}
