@@ -8,16 +8,15 @@
     height: auto;
     width: 100%;
     border: 1px solid black;
-    gap: 10px;
-    
-    
+    gap: 10px;  
 }
 
 .smallbox {
     border: 1px solid black;
     height: 100px;
-    min-width: 20%;
+    min-width: 40%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     
-
 }
