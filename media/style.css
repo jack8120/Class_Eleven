@@ -1,0 +1,94 @@
+#largebox {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    #largebox {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+      
+    /* gap: 20px; */
+    /* /* flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly ;  */
+    /* height: auto;
+    width: 100%; */
+    /* border: 1px solid black; */
+    /* gap: 10px;  */
+    gap: 10px;
+}
+
+.smallbox {
+    border: 1px solid black;
+    height:auto;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item1 {
+    /* border: 1px solid blue; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+
+.item2 {
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+   
+    
+}
+.item3 {
+    
+}
+    /* gap: 20px; */
+    /* /* flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly ;  */
+    /* height: auto;
+    width: 100%; */
+    /* border: 1px solid black; */
+    /* gap: 10px;  */
+    gap: 10px;
+}
+
+.smallbox {
+    border: 1px solid black;
+    height:auto;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item1 {
+    /* border: 1px solid blue; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+
+.item2 {
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+   
+    
+}
+/* .item3 {
+    background-image: url(https://hypebeast.com/image/2021/04/wilder-world-decentralized-nft-market-and-artist-guild-info-4.jpg);
+    background-size: 100% 100%;
+    
+} */
